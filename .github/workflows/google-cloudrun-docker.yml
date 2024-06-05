@@ -2,7 +2,7 @@ name: Build and Deploy to Cloud Run
 
 on:
   push:
-    branches: ["main"]
+    branches: ["master"]
 
 env:
   PROJECT_ID: latihan-devops-cloud-run # TODO: update Google Cloud project id
